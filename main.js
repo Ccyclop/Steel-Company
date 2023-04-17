@@ -18,21 +18,11 @@ for(var i = 0; i < productsList.length; i++) {
     addProduct(productsSrc[i], productsList[i])
 }
 
-
-const productsTitle = document.querySelector('.products-title')
-const catalogBtns = document.querySelectorAll('#catalog')
-
-catalogBtns.forEach((o) => {
-    o.addEventListener('click', () => {
-        window.scrollTo(productsTitle.getClientRects()[0].x, productsTitle.getClientRects()[0].y)
-    })
-})
-
 const header = document.querySelector('header')
 
 window.addEventListener('scroll', () => {
     if(window.scrollY >= 934) {
-        header.style.backgroundColor = 'rgba(0,0,0,0.2)'
+        header.style.backgroundColor = 'rgba(0,0,0,0.5)'
     } else {
         header.style.backgroundColor = 'transparent'
     }
