@@ -1,0 +1,56 @@
+@media screen and (max-width: 912px) {
+    .about, .contacts {
+        flex-wrap: wrap!important;
+        justify-content: center!important;
+    }
+    
+    .about-img {
+        margin-top: 0px;
+    }
+    
+    .cover-text-title {
+        text-align: center;
+    }
+
+    .map {
+        margin-top: 50px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .map iframe {
+        width: 100%;
+        height: 500px;
+    }
+
+    .copyrights p {
+        padding: 0;
+        width: 80%;
+    }
+
+    .tablee {
+        width: 70%;
+    }
+
+    .contacts-list {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .upper {
+        flex-direction: column;
+    }
+
+    footer {
+        height: max-content;
+    }
+
+    .tablee {
+        width: 100%;
+    }
+
+    table {
+        margin: auto;
+    }
+}

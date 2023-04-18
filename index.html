@@ -11,6 +11,7 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./responsive.css">
 </head>
 
 <body>
@@ -57,23 +58,27 @@
                 <button class="btn cover-btn ge" id="catalog"><a href="#catalogTitle">კატალოგი</a></button>
             </div>
         </div>
-        <div class="products-title col-md-8 m-auto mt-5" id="catalogTitle">
-            <h1 class="title-bck-txt ge">კატალოგი</h1>
-            <div class="title-front">
-                
-                <h1 class="title-front-txt ge">კატალოგი</h1>
+        <div style="background-color: #f8f8f8; height:100px;" class="pt-5 col-md-12">
+            <div class="products-title col-md-10 m-auto" id="catalogTitle">
+                <h1 class="title-bck-txt ge">კატალოგი</h1>
+                <div class="title-front">
+                    
+                    <h1 class="title-front-txt ge">კატალოგი</h1>
+                </div>
             </div>
         </div>
-        <div class="products d-flex flex-wrap justify-content-around col-md-8 m-auto">
+        <div style="width: 100%; background-color: #f8f8f8; padding: 30px 0px;">
+            <div class="products d-flex flex-wrap justify-content-around col-md-8 m-auto">
+            </div>
         </div>
-        <div class="products-title col-md-8 m-auto " id="about">
+        <div class="products-title col-md-11 m-auto " id="about">
             <h1 class="title-bck-txt ge">ჩვენს შესახებ</h1>
             <div class="title-front">
                 
                 <h1 class="title-front-txt ge">ჩვენს შესახებ</h1>
             </div>
         </div>
-        <div class="about col-md-8 m-auto d-flex justify-content-start flex-wrap mt-5">
+        <div class="about col-md-11 m-auto d-flex justify-content-between flex-nowrap mt-5">
             <div class="about-txt ge col-md-6">
                 <p>
                     ჩვენი კომპანია, უზრუნველყოფს მომხმარებლისთვის სასურველი პროდუქციის შეკვეთით ჩამოტანას <b> 7-14 დღის </b>განმავლობაში.
@@ -81,16 +86,18 @@
                     კომპანიის მდგრადი განვითარების საფუძვლებია <b>საქონლის, ხარისხისა და მომსახურების მაღალი დონით სწორი პოზიციონირება</b>. ასევე მომხმარებლების მოთხოვნებზე ორიენტაცია მათი <b>ინტერესების მაქსიმალური გათვალისწინებით</b>.
                 </p>
             </div>
-            <img src="./assets/about-us" alt="">
+            <div class="about-img">
+                <img src="./assets/about-us" alt="">
+            </div>
         </div>
-        <div class="products-title col-md-8 m-auto " id="contact">
+        <div class="products-title col-md-10 m-auto " id="contact">
             <h1 class="title-bck-txt ge">კონტაქტი</h1>
             <div class="title-front">
                 
                 <h1 class="title-front-txt ge">კონტაქტი</h1>
             </div>
         </div>
-        <div class="contacts col-md-8 d-flex justify-content-start m-auto flex-wrap position-relative">
+        <div class="contacts col-md-10 d-flex justify-content-between m-auto flex-nowrap">
             <div class="contacts-list d-flex flex-column justify-content-around mt-5">
                 <div class="contact-line d-flex justify-content-start align-items-center">
                     <div class="label">
@@ -114,6 +121,14 @@
                     </div>
                     <div class="contact">
                         <span class="ge">თბილისი, აქვსენტი ნაჭყებიას #2</span>
+                    </div>
+                </div>
+                <div class="contact-line d-flex justify-content-start align-items-center">
+                    <div class="label">
+                        <span><i class="fa-solid fa-envelope"></i><b style="margin-left: 45px;" class="ge m"> მეილი</b></span>
+                    </div>
+                    <div class="contact">
+                        <span class="en">steelcompanyge@gmail.com</span>
                     </div>
                 </div>
             </div>
@@ -159,7 +174,12 @@
                         <tr>
                             <td><a class="ge" href="#about">ჩვენს შესახებ</a></td>
                             <td></td>
-                            <td class="ge" style="color: white;">თბილისი, აქვსენტი ნაჭყებიას #2</td>
+                            <td class="ge" style="color: white;">თბილისი,აქვსენტი ნაჭყებიას 2</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td class="en" style="color:white;">steelcompanyge@gmail.com</td>
                         </tr>
                     </tbody>
                 </table>
