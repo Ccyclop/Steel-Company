@@ -21,7 +21,7 @@ for(var i = 0; i < productsList.length; i++) {
 const header = document.querySelector('header')
 
 window.addEventListener('scroll', () => {
-    if(window.scrollY >= 934) {
+    if(window.scrollY >= 900) {
         header.style.backgroundColor = 'rgba(0,0,0,0.5)'
     } else {
         header.style.backgroundColor = 'transparent'
