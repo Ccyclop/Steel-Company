@@ -53,4 +53,60 @@
     table {
         margin: auto;
     }
+
+    table thead th {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .contact-line {
+        flex-direction: column;
+    }
+
+    .contacts-list {
+        height: max-content;
+        gap: 20px;
+    }
+
+    .contact {
+        text-align: center;
+    }
+
+    td[class='ge'] , td[class='en'] {
+        text-align: right;
+    }
+
+    table thead th:last-child {
+        text-align: right;
+    }
+
+    .about-txt p {
+        width: 80%;
+        margin: auto;
+    }
+
+    .cover-text-title {
+        font-size: 60px!important;
+    }
+
+    .title-bck-txt {
+        display: none;
+    }
+
+    .title-front-txt {
+        text-align: center;
+    }
+
+    .title-front {
+        padding: 0px;
+    }
+
+    #about {
+        margin-top: 70px!important;
+    }
+
+    .product-card {
+        width: 250px;
+        height: 100px;
+    }
 }
