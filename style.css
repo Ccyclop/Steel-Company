@@ -310,6 +310,11 @@ button a[href='#catalogTitle'] {
     border-radius: 50px;
     overflow: hidden;
     margin-top: -100px;
+    width: 50%;
+}
+
+.map iframe {
+    width: 100%;
 }
 
 .contacts {
