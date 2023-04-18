@@ -121,4 +121,13 @@
         justify-content: space-around;
         flex-direction: column;
     }
+
+    .map {
+        width: 80%;
+        margin: 50px auto 0px;
+    }
+
+    .contacts {
+        margin-bottom: 100px!important;
+    }
 }
