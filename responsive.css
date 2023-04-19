@@ -35,6 +35,11 @@
     .contacts-list {
         width: 70%;
     }
+
+    .about-txt p {
+        width: 90%!important;
+        margin: auto!important;
+    }
 }
 
 @media screen and (max-width: 630px) {
@@ -129,5 +134,33 @@
 
     .contacts {
         margin-bottom: 100px!important;
+    }
+
+    header {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    header svg {
+        width: 70px!important;
+        height: 40px!important;
+    }
+
+    .about-img img {
+        width: 90%!important;
+    }
+
+    .about-img {
+        margin-top: 30px!important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .product-card:hover p {
+        transform: scale(1.2);
+    }
+
+    .product-card:last-child:hover p {
+        transform: scale(1.03);
     }
 }

@@ -1,6 +1,6 @@
 :root {
-    --color-1: #fff;
-    --color-2: rgb(0,0,0);
+    --color-1: #f8f8f8;
+    --color-2: #39a01fa8;
     --font-geo: extrasquare;
     --font-poppins: 'Poppins', sans-serif;
 }
@@ -9,6 +9,8 @@
     font-family: extrasquare;
     src: url('./assets/Fonts/bpg_extrasquare_mtavruli_2009.ttf');
 }
+
+
 
 .ge {
     font-family: var(--font-geo);
@@ -430,4 +432,22 @@ tbody a:hover {
 
 tbody a:hover i {
     color: #39a01fa8;
+}
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    padding: 200px 0!important;
+}
+
+.content-container img {
+    width: 30%;
+}
+
+.gallery-about {
+    margin-top: 0px!important;
+    padding-top: 200px!important;
 }
