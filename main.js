@@ -241,27 +241,36 @@ if(window.location.href.includes('gallery.html')){
         localStorage['scrollTo'] = null
     }
 }
+
 if(localStorage['page'] == 'gallery'){
-    const catalogLink = document.querySelector('#catalog')
-    const contactLink = document.querySelector('#contactLink')
+    const catalogLink = document.querySelectorAll('#catalog')
+    const contactLink = document.querySelectorAll('#contactLink')
 
-    catalogLink.addEventListener('click', () => {
-        localStorage['scrollTo'] = '#catalogTitle'
-        window.location.href = window.location.href.replace('gallery', 'index')
+    catalogLink.forEach(o => {
+            o.addEventListener('click', () => {
+            localStorage['scrollTo'] = '#catalogTitle'
+            window.location.href = window.location.href.replace('gallery', 'index')
+        })
     })
 
-    contactLink.addEventListener('click', () => {
-        localStorage['scrollTo'] = '#contact'
-        window.location.href = window.location.href.replace('gallery', 'index')
+    contactLink.forEach(o => {
+            o.addEventListener('click', () => {
+            localStorage['scrollTo'] = '#contact'
+            window.location.href = window.location.href.replace('gallery', 'index')
+        })
     })
 
-    catalogLink.removeEventListener('click', () => {
-        localStorage['scrollTo'] = '#catalogTitle'
-        window.location.href = window.location.href.replace('gallery', 'index')
+    catalogLink.forEach(o => {
+            o.removeEventListener('click', () => {
+            localStorage['scrollTo'] = '#catalogTitle'
+            window.location.href = window.location.href.replace('gallery', 'index')
+        })
     })
-    contactLink.removeEventListener('click', () => {
-        localStorage['scrollTo'] = '#contact'
-        window.location.href = window.location.href.replace('gallery', 'index')
+    contactLink.forEach(o => {
+            o.removeEventListener('click', () => {
+            localStorage['scrollTo'] = '#contact'
+            window.location.href = window.location.href.replace('gallery', 'index')
+        })
     })
 }
 
