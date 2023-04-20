@@ -31,16 +31,31 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">მთავარი</a>
+                            <a class="nav-link ge" lang="ge" href="#">მთავარი</a>
+                            <a class="nav-link en" lang="en"  href="#">Main</a>
+                            <a class="nav-link ru" lang="ru"  href="#">Основной</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " id="catalog" href="#catalogTitle">კატალოგი</a>
+                            <a class="nav-link ge" lang="ge" id="catalog" href="#catalogTitle">კატალოგი</a>
+                            <a class="nav-link en" lang="en" id="catalog"  href="#catalogTitle">Catalog</a>
+                            <a class="nav-link ru" lang="ru" id="catalog"  href="#catalogTitle">Каталог</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="./gallery.html">გალერეა</a>
+                            <a class="nav-link ge" lang="ge" href="./gallery.html">გალერეა</a>
+                            <a class="nav-link en" lang="en"  href="./gallery.html">Gallery</a>
+                            <a class="nav-link ru" lang="ru"  href="./gallery.html">Галерея</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " id="contactLink" href="#contact" >კონტაქტი</a>
+                            <a class="nav-link ge" lang="ge" id="contactLink" href="#contact" >კონტაქტი</a>
+                            <a class="nav-link en" lang="en" id="contactLink"  href="#contact" >Contact</a>
+                            <a class="nav-link ru" lang="ru" id="contactLink"  href="#contact" >Контакт</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="langs">
+                                <a class="nav-link active" id="langGe">GE</a>
+                                <a class="nav-link" id="langEn">EN</a>
+                                <a class="nav-link" id="langRu">RU</a>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -48,22 +63,34 @@
         </nav>
     </header>
     <main>
+        <div class="socials">
+            <div class="social-icon">
+                <i class="fa-brands fa-facebook-f"></i>
+            </div>
+            <div class="social-icon">
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
         <div class="cover">
             <img class="tmp-img" src="./assets/781385f18e44d79e918ee886d4d56614-1582115049885.jpg" alt="">
             <div class="cover-text col-md-6 m-auto d-flex flex-column align-item-center">
                 <div class="d-flex flex-column align-items-center">
-                    <h1 class="text-white en cover-text-title">STEEL COMPANY</h1>
+                    <h1 style="font-family: 'Poppins', sans-serif;" class="text-white cover-text-title">STEEL COMPANY</h1>
                     <hr class="hr">
                 </div>
-                <button class="btn cover-btn ge" id="catalog"><a href="#catalogTitle">კატალოგი</a></button>
+                <button class="btn cover-btn" id="catalog"><a href="#catalogTitle" class="ge" lang="ge">კატალოგი</a> <a href="#catalogTitle" class="en"  lang="en">Catalog</a> <a href="#catalogTitle"  class="ru" lang="ru">Каталог</a></button>
             </div>
         </div>
         <div style="background-color: #f8f8f8; height:100px;" class="pt-5 col-md-12">
             <div class="products-title col-md-10 m-auto" id="catalogTitle">
-                <h1 class="title-bck-txt ge">კატალოგი</h1>
+                <h1 class="title-bck-txt ge" lang="ge">კატალოგი</h1>
+                <h1 class="title-bck-txt en"   lang="en">Catalog</h1>
+                <h1 class="title-bck-txt ru"  lang="ru">Каталог</h1>
                 <div class="title-front">
                     
                     <h1 class="title-front-txt ge">კატალოგი</h1>
+                    <h1 class="title-front-txt en" >Catalog</h1>
+                    <h1 class="title-front-txt ru" >Каталог</h1>
                 </div>
             </div>
         </div>
@@ -73,21 +100,35 @@
         </div>
         <div class="products-title col-md-11 m-auto " id="about">
             <h1 class="title-bck-txt ge">გალერეა</h1>
+            <h1 class="title-bck-txt en" >Gallery</h1>
+            <h1 class="title-bck-txt ru" >Галерея</h1>
             <div class="title-front">
                 
                 <h1 class="title-front-txt ge">გალერეა</h1>
+                <h1 class="title-front-txt en" >Gallery</h1>
+                <h1 class="title-front-txt ru" >Галерея</h1>
             </div>
         </div>
         <div class="about col-md-11 m-auto d-flex justify-content-between flex-nowrap mt-5">
-            <div class="about-txt ge col-md-6">
-                <p>
+            <div class="about-txt col-md-6">
+                <p class="ge">
                     ჩვენი კომპანია, უზრუნველყოფს მომხმარებლისთვის სასურველი პროდუქციის შეკვეთით ჩამოტანას <b> 7-14 დღის </b>განმავლობაში.
 
                     კომპანიის მდგრადი განვითარების საფუძვლებია <b>საქონლის, ხარისხისა და მომსახურების მაღალი დონით სწორი პოზიციონირება</b>. ასევე მომხმარებლების მოთხოვნებზე ორიენტაცია მათი <b>ინტერესების მაქსიმალური გათვალისწინებით</b>.
                     ჩვენი წარმატების საფუძველია: <b> 100-ზე მეტი მაღალკვალიფიციურ პროფესიონალთა გუნდი</b>, ხარისხიანი პროდუქციის ფართო არჩევანი, კომფორტული მომსახურება, <b>ადგილზე მიტანის სერვისი</b> და კომპლექტაცია ნებისმიერი დასახელების საქონლით, ინდივიდუალური და მოქნილი ფასები,<b> სწრაფი მომსახურება და მიწოდების მინიმალური ვადები</b>.
                     <b>ჩვენი მისიაა</b> დავაკმაყოფილოთ კლიენტების მოთხოვნები, შევთავაზოთ <b>უმაღლესი ხარისხი და მოქნილი მომსახურება.</b>
 
-                    <b><a style="color: #39a01f;" href="./gallery.html"> იხილეთ ფოტო გალერეა</a></b>
+                    <b><a style="color: #39a01f;" class="ge" href="./gallery.html"> იხილეთ ფოტო გალერეა</a></b>
+                </p>
+                <p class="en" >
+                    Our company ensures the delivery of the desired products to the customer within <b> 7-14 days.</b> The foundations of the company's sustainable development are <b>the correct positioning with a high level of goods, quality and service.</b> as well as orientation to the demands of customers, <b>taking into account their interests to the maximum extent.</b> The basis of our success is: <b>a team of more than 100 highly qualified professionals</b>, a wide selection of quality products, convenient service, <b>on-site delivery service</b> and completeness with goods of any name, individual and flexible prices, <b>fast service and minimum delivery times. Our mission</b> is to meet the needs of our clients, to offer <b>the highest quality and flexible service.</b>
+
+                    <b><a style="color: #39a01f;" class="en" href="./gallery.html">See Photo Gallery</a></b>
+                </p>
+                <p class="ru" >
+                    Наша компания обеспечивает доставку желаемой продукции заказчику в течение <b>7-14 дней.</b> Основой устойчивого развития компании является <b>правильное позиционирование с высоким уровнем товаров, качества и сервиса.</b> а также ориентация на запросы клиентов, <b>максимально учитывая их интересы</b>. Основа нашего успеха:<b> команда из более чем 100 высококвалифицированных специалистов</b>, широкий выбор качественной продукции, удобный сервис, <b>служба доставки на объект</b> и комплектность товарами любого наименования, индивидуальные и гибкие цены, <b>быстрое обслуживание и минимальная доставка</b>. <b>Наша миссия</b> – удовлетворять потребности наших клиентов, <b>предлагать максимально качественный и гибкий сервис.</b>
+
+                    <b><a style="color: #39a01f;" class="ru" href="./gallery.html"> Посмотреть Фотогалерею</a></b>
                 </p>
             </div>
             <div class="about-img">
@@ -96,43 +137,92 @@
         </div>
         <div class="products-title col-md-10 m-auto " id="contact">
             <h1 class="title-bck-txt ge">კონტაქტი</h1>
+            <h1 class="title-bck-txt en" >Contact</h1>
+            <h1 class="title-bck-txt ru" >Контакт</h1>
             <div class="title-front">
                 
                 <h1 class="title-front-txt ge">კონტაქტი</h1>
+                <h1 class="title-front-txt en" >Contact</h1>
+                <h1 class="title-front-txt ru" >Контакт</h1>
             </div>
         </div>
         <div class="contacts col-md-10 d-flex justify-content-between m-auto flex-nowrap">
             <div class="contacts-list d-flex flex-column justify-content-around mt-5">
                 <div class="contact-line d-flex justify-content-start align-items-center">
                     <div class="label">
-                        <span><i class="fa-solid fa-phone"></i><b class="ge"> ტელეფონის ნომერი</b></span>
+                        <span>
+                            <i class="fa-solid fa-phone"></i>
+                            <b class="ge"> ტელეფონის ნომერი</b>
+                            <b class="en" > Telephone Number</b>
+                            <b class="ru" > Номер Телефона</b>
+                        </span>
                     </div>
                     <div class="contact">
-                        <span class="ge">(+995) 595 12 11 12</span>
+                        <span class="ge">(+995) 595 12 11 12
+                            <i style="color: #59267c; font-size: 20px;" class="fa-brands fa-viber"></i> 
+                            <i style="color: #25D366; font-size: 20px;" class="fa-brands fa-whatsapp"></i>
+                        </span>
+                        <span class="en" >(+995) 595 12 11 12
+                            <i style="color: #59267c; font-size: 20px;" class="fa-brands fa-viber"></i> 
+                            <i style="color: #25D366; font-size: 20px;" class="fa-brands fa-whatsapp"></i>
+                        </span>
+                        <span class="ru" >(+995) 595 12 11 12
+                            <i style="color: #59267c; font-size: 20px;" class="fa-brands fa-viber"></i> 
+                            <i style="color: #25D366; font-size: 20px;" class="fa-brands fa-whatsapp"></i>
+                        </span> 
                     </div>
                 </div>
                 <div class="contact-line d-flex justify-content-start align-items-center">
                     <div class="label">
-                        <span><i class="fa-solid fa-phone"></i><b class="ge"> ტელეფონის ნომერი</b></span>
+                        <span><i class="fa-solid fa-phone"></i>
+                            <b class="ge"> ტელეფონის ნომერი</b> 
+                            <b class="en" >Telephone Number</b>
+                            <b class="ru" >Номер Телефона</b>
+                        </span>
                     </div>
                     <div class="contact">
-                        <span class="ge">(+995) 595 84 84 88</span>
+                        <span class="ge">(+995) 599 55 72 69
+                            <i style="color: #59267c; font-size: 20px;" class="fa-brands fa-viber"></i> 
+                            <i style="color: #25D366; font-size: 20px;" class="fa-brands fa-whatsapp"></i>
+                        </span>
+                        <span class="en" >(+995) 599 55 72 69
+                            <i style="color: #59267c; font-size: 20px;" class="fa-brands fa-viber"></i> 
+                            <i style="color: #25D366; font-size: 20px;" class="fa-brands fa-whatsapp"></i>
+                        </span>
+                        <span class="ru" >(+995) 599 55 72 69
+                            <i style="color: #59267c; font-size: 20px;" class="fa-brands fa-viber"></i> 
+                            <i style="color: #25D366; font-size: 20px;" class="fa-brands fa-whatsapp"></i>
+                        </span>
                     </div>
                 </div>
                 <div class="contact-line d-flex justify-content-start align-items-center">
                     <div class="label">
-                        <span><i class="fa-solid fa-location-dot"></i><b class="ge m"> მისამართი</b></span>
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <b class="ge m"> მისამართი</b>
+                            <b class="en m" > Location</b>
+                            <b class="ru m" > Адрес</b> 
+                        </span>
                     </div>
                     <div class="contact">
                         <span class="ge">თბილისი, აქვსენტი ნაჭყებიას #2</span>
+                        <span class="en" >Tbilisi, Aqvsenti Nachyebia #2</span>
+                        <span class="ru" >Тбилиси, Аквсенти Начкебиа #2</span>
                     </div>
                 </div>
                 <div class="contact-line d-flex justify-content-start align-items-center">
                     <div class="label">
-                        <span><i class="fa-solid fa-envelope"></i><b style="margin-left: 45px;" class="ge m"> მეილი</b></span>
+                        <span>
+                            <i class="fa-solid fa-envelope"></i>
+                            <b style="margin-left: 45px;" class="ge m"> მეილი</b>
+                            <b style="margin-left: 45px; " class="en m"> Mail</b>
+                            <b style="margin-left: 45px; " class="ru m"> Почта</b>
+                        </span>
                     </div>
                     <div class="contact">
-                        <span class="en">steelcompanyge@gmail.com</span>
+                        <span class="ge">steelcompanyge@gmail.com</span>
+                        <span class="en" >steelcompanyge@gmail.com</span>
+                        <span class="ru" >steelcompanyge@gmail.com</span>
                     </div>
                 </div>
             </div>
@@ -160,30 +250,43 @@
                     <thead>
                         <tr>
                             <th style="width: 29%;" class="ge">ბმულები</th>
-                            
                             <th style="width: 25%;" class="ge">კონტაქტი</th>
+                            <th style="width: 29%; " class="en">Links</th>
+                            <th style="width: 25%; " class="en">Contacts</th>
+                            <th style="width: 29%; " class="ru">Ссылки</th>
+                            <th style="width: 25%; " class="ru">Контакт</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td><a class="ge" href="#">მთავარი</a></td>
-                            
+                            <td class="ge"><a class="ge" href="#">მთავარი</a></td>
                             <td class="ge" style="color: white;">+995 595 12 11 12</td>
+                            <td class="en" ><a class="en" href="#">Main</a></td>
+                            <td class="en" style="color: white; ">+995 595 12 11 12</td>
+                            <td class="ru" ><a class="ru" href="#">Основной</a></td>
+                            <td class="ru" style="color: white; ">+995 595 12 11 12</td>
                         </tr>
                         <tr>
-                            <td><a class="ge" href="#catalogTitle">კატალოგი</a></td>
-                            
-                            <td class="ge" style="color: white;">+995 595 84 84 88</td>
+                            <td class="ge"><a class="ge" href="#catalogTitle">კატალოგი</a></td>
+                            <td class="ge" style="color: white;">+995 599 55 72 69</td>
+                            <td class="en" ><a class="en" href="#catalogTitle">Catalog</a></td>
+                            <td class="en" style="color: white; ">+995 599 55 72 69</td>
+                            <td class="ru" ><a class="ru" href="#catalogTitle">Каталог</a></td>
+                            <td class="ru" style="color: white; ">+995 599 55 72 69</td>
                         </tr>
                         <tr>
-                            <td><a class="ge" href="#about">ჩვენს შესახებ</a></td>
-                            
-                            <td class="ge" style="color: white;">თბილისი,აქვსენტი ნაჭყებიას 2</td>
+                            <td class="ge"><a class="ge" href="./gallery.html">გალერეა</a></td>
+                            <td class="ge" style="color: white;">თბილისი,აქვსენტი ნაჭყებიას #2</td>
+                            <td class="en" ><a class="en" href="./gallery.html">Gallery</a></td>
+                            <td class="en" style="color: white; ">Tbilisi, Aqvsenti Nachyebia #2</td>
+                            <td class="ru" ><a class="ru" href="./gallery.html">Галерея</a></td>
+                            <td class="ru" style="color: white; ">Тбилиси, Аквсенти Начкебиа #2</td>
                         </tr>
                         <tr>
                             <td></td>
-                            
-                            <td class="en" style="color:white;">steelcompanyge@gmail.com</td>
+                            <td class="en" style="color:white; ">steelcompanyge@gmail.com</td>
+                            <td class="ge" style="color:white;">steelcompanyge@gmail.com</td>
+                            <td class="ru" style="color:white; ">steelcompanyge@gmail.com</td>
                         </tr>
                     </tbody>
                 </table>

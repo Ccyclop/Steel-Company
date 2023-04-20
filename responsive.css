@@ -163,4 +163,16 @@
     .product-card:last-child:hover p {
         transform: scale(1.03);
     }
+
+    .content-container img {
+        width: 40%;
+    }
+    .content-container {
+        gap: 10px;
+        padding: 50px 0!important;
+    }
+
+    .gallery-about {
+        padding-top: 100px!important;
+    }
 }
