@@ -95,7 +95,7 @@
     }
 
     .title-bck-txt {
-        display: none;
+        display: none!important;
     }
 
     .title-front-txt {
